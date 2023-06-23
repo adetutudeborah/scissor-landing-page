@@ -11,7 +11,7 @@
     --secondary-color: #1E3448; 
     --tertiary-color: #112232; 
     --neutral-color: #071827;
-    --sooty-colr: #141414;
+    --text-color: #141414;
     --black-color: #0000;   
     --white-color: #ffff;  
     --default-font-family: 'Gilroy-Bold', sans-serif;
@@ -28,6 +28,7 @@
  body{
     font-family: var(--default-font-family);
     background-color: var(--white-color);
+
  }
 
  ul,
@@ -52,7 +53,7 @@
 
 
  .nav-items {
-    color: var(--sooty-colr);
+    color: var(--text-color);
     font-family: var(--medium-font-family);
     font-size: 1.7rem;
     display: flex;
@@ -85,6 +86,7 @@
  
 .nav-signup {
     margin: 2rem 0;
+    padding: 0.8rem 2rem !important;
     color: var(--white-color);
 }
   
@@ -94,16 +96,127 @@
     font-size: 1.5rem;
     font-weight: 500;
     text-decoration: none;
-    padding: 0.8rem 2rem !important;
     border-radius: 100px;
     outline: none;
     border: solid transparent;
     transition: all 0.5s ease-in;
 }
   
-.btn:hover{
+.btn:hover {
     cursor: pointer;
     color: var(--primary-color);
     background: var(--white-color); 
     border: 1px solid var(--primary-color);
+}
+
+/* Heading */
+
+.hero-section {
+  padding-top: 8rem;
+}
+
+.hero-heading {
+   width: 100%;
+   max-width: 948px;
+   margin: 0 auto;
+   text-align: center;
+   font-family: var(--default-font-family);
+   color: var(--text-color);
+   font-size: 4.8rem;
+   line-height: 1.8;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.url-shortening {
+   color: var(--primary-color);
+}
+
+.underline {
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: -15px;
+}
+
+.hero-subheading {
+   font-family: var(--medium-font-family);
+   font-size: 1.7rem;
+   line-height: 1.8;
+   width: 100%;
+   max-width: 900px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 2rem 10rem;
+}
+
+.hero-links {
+   font-family: var(--medium-font-family);
+   text-align: center;
+   padding: 3rem 0;
+}
+
+.hero-signup-btn {
+   padding: 1rem 3.5rem;
+}
+
+.hero-more-btn {
+   color: var(--primary-color);
+   font-size: 1.6rem;
+   font-weight: 500;
+   margin-left: 2rem;
+   padding: 1rem 3.5rem;
+   border-radius: 100px;
+}
+
+.hero-more-btn:hover {
+   cursor: pointer;
+   border: 1px solid var(--primary-color);
+}
+
+/* Chain Section */
+
+.chain-container {
+   margin: 6rem 0 8rem;
+   position: relative;
+}
+
+.chain {
+   width: 100%;
+   max-width: 764px;
+   height: 225px;
+   margin: 0 auto;
+   margin-right: 18%;
+   padding: 3rem 0rem 3rem 8rem;
+   background: rgba(254, 254, 254, 0.1);
+   border: 0.5px solid #005ae2;
+   border-radius: 24px;
+   backdrop-filter: blur(212px);
+}
+
+.chain-image {
+   margin-right: 18%;
+}
+
+.chain-text {
+   color: var(--text-color);
+   font-family: var(--medium-font-family);
+   font-size: 1.7rem;
+   line-height: 1.6;
+   padding-top: 1rem;
+   text-align: center;
+}
+
+.chain-background-image {
+   position: absolute;
+    top: -1.5rem;
+    left: 48.5rem;
+    z-index: -100;
+}
+
+/* Metrics */
+
+.metrics {
+   background-color: #f9fbfd;
+   padding: 4rem 0;
 }
