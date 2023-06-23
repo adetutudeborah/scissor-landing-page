@@ -17,7 +17,7 @@
     --default-font-family: 'Gilroy-Bold', sans-serif;
     --heavy-font-family: 'Gilroy-Heavy', sans-serif;
     --light-font-family: 'Gilroy-Light', sans-serif;
-    --medium-font-family: 'Gilroy-Medium', sans-serif;
+    --medium-font-family: 'gilroy-medium', sanserif;
     --regular-font-family: 'Gilroy-Regular', sans-serif;
   }
  
@@ -218,5 +218,42 @@
 
 .metrics {
    background-color: #f9fbfd;
-   padding: 4rem 0;
+   padding: 6rem 6rem;
+   display: flex;
+   justify-content: space-around;
+}
+
+.metrics-title {
+   font-size: var(--default-font-family);
+   font-size: 4rem;
+   line-height: 1.4;
+}
+
+.possibilities {
+   color: var(--primary-color);
+}
+
+.metrics-details {
+   display: flex;
+}
+
+.metrics-info {
+   text-align: left;
+   padding: 0rem 4rem;
+}
+
+.metrics-value {
+   font-size: 3.5rem;
+   font-weight: bold;
+   font-family: var(--medium-font-family);
+   color: var(--text-color);
+   padding-bottom: 1rem;
+}
+
+.metrics-text {
+   color: var(--text-color);
+   font-family: var(--medium-font-family);
+   font-size: 1.7rem;
+   line-height: 1.4;
+   font-weight: 500;
 }
