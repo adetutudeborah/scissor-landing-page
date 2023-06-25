@@ -550,3 +550,65 @@ input::placeholder{
    padding: 2rem;
    line-height: 1.5;
 }
+
+/* FAQs */
+.faqs {
+  margin-top: 6rem;
+  background-image: url(../images/faqs-left-bg.svg), url(../images/faqs-right-bg.svg);
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.faq-heading {
+   display: flex;
+   justify-content: center;
+}
+
+.faq-sidebar {
+   width: 0.6rem;
+   height: 5rem;
+   background: linear-gradient( to bottom, rgba(17, 34, 50, 1), rgba(77, 107, 136, 0) );
+   margin-right: 0.5rem;
+}
+
+.faq-title {
+   font-family: var(--default-font-family);
+   color: var(--text-color);
+   font-size: 4rem;
+   padding-bottom: 1.5rem;
+   text-align: center;
+}
+
+.faq-container {
+   margin: 0 auto;
+   margin-top: 6rem;
+   padding-bottom: 12rem;
+   width: 100%;
+   max-width: 800px;
+}
+
+.faq-section {
+   padding: 2.6rem 0rem 1.8rem;
+   border-bottom: 1px solid #d6d6d6;
+   cursor: pointer;
+   transition: all 0.5s ease-in;
+}
+
+.question-section {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.question {
+   font-weight: var(--medium-font-family);
+   font-size: 1.8rem;
+   padding-right: 5rem;
+   line-height: 1.6;
+}
+
+.answer {
+   font-size: 1.6rem;
+   font-family: var(--medium-font-family);
+   line-height: 1.8;
+}
