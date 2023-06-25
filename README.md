@@ -19,7 +19,7 @@ To convert the provided figma design using the HTML and CSS skills learnt in the
 
 # Links
 
-- [Live site URL]()
+- [Live site URL](https://scissor-landing-page.netlify.app/)
 - [Figma file](https://www.figma.com/file/9ZVwUUE90or1RiL2y5AvS5/AltSchoolV2-Exam-(Copy)?type=design&node-id=1-122&mode=design&t=gDt2h6idC5eWXpy3-0)
 
 # My process
