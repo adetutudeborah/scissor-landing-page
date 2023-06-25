@@ -3,7 +3,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    /* padding: 0; */
  }
 
  :root {
@@ -116,7 +115,7 @@
     border: 1px solid var(--primary-color);
 }
 
-/* Heading */
+/* Hero */
 
 .hero-section {
   padding-top: 8rem;
