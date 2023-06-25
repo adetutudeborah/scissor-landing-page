@@ -630,7 +630,7 @@ input::placeholder{
    font-family: var(--default-font-family);
    font-size: 4rem;
    color: var(--white-color);
-   padding: 3rem 0 5rem;
+   padding: 3rem 0 4rem;
 }
 
 .get-started-btn { 
@@ -643,4 +643,88 @@ input::placeholder{
    border-radius: 100px;
    outline: none;
    border: solid transparent;
+}
+
+/* Footer */
+
+.footer {
+   background-image: url(../images/footer-left-bg.svg), url(../images/footer-right-bg.svg);
+   background-position: bottom left, right bottom;
+   background-repeat: no-repeat, no-repeat;
+   padding-top: 8rem;
+   padding-bottom: 4rem;
+}
+
+.footer-container {
+   width: 100%;
+   max-width: 1200px; 
+   margin: 0 auto;
+   margin-right: 100px;
+}
+
+.footer-inner-container {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-logo {
+   width: 140px;
+   height: 40px;
+}
+
+.scissor-brand {
+  margin-top: 1rem;
+}
+
+.scissor-social-links {
+   display: flex;
+   gap: 2.2rem;
+   margin-top: 2rem; 
+}
+
+.social {
+   width: 22px;
+   height: 22px;
+   font-size: 1rem;
+}
+
+.about-scissor {
+   line-height: 1.8;
+}
+
+.about-scissor h6 {
+   font-family: var(--default-font-family);
+   color: #071827;
+   font-size: 1.6rem;
+   margin-bottom: 0.5rem;
+}
+
+.about-scissor li {
+   font-family: var(--medium-font-family);
+   color: #112232;
+   font-size: 1.4rem;
+}
+
+.about-scissor li:hover {
+   color: var(--primary-color);
+}
+
+.second-line {
+   grid-column: 2/3;
+}
+
+.footer-text {
+   font-family: var(--medium-font-family);
+   padding-top: 4rem;
+   text-align: right;
+   font-size: 1.4rem;
+}
+
+.service,
+.security {
+   padding: 0 0.5rem;
+}
+
+.footer-year {
+  padding-left: 1rem;
 }
