@@ -44,6 +44,12 @@
     color: inherit;
 }
 
+/* Header */
+
+.header{
+    background: linear-gradient(to right top, #ffffff, #fffcfe, #fff8f8, #f8f8e8, #f8f8e8);
+}
+
  /* Navigation bar */
 
  .navigation-bar{
